@@ -1,8 +1,9 @@
 import React from "react";
-import TopicBlock from "./TopicBlock";
+
+import TopicBlock from './TopicBlock'
 
 function Course({ data,filterString }) {
-    console.log(data,filterString);
+  console.log(data)
   return (
       <>
       <div>
@@ -10,7 +11,7 @@ function Course({ data,filterString }) {
         data
            && 
         data.topics
-        .map(topic => <TopicBlock key={topic.topic_id} topic={topic} filterString={filterString}/>)
+        .map(topic => <TopicBlock key={topic.topic_id} topic={topic} filterString={filterString} />)
       }
       </div>
       </>
