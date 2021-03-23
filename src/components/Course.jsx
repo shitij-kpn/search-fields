@@ -3,7 +3,6 @@ import React from "react";
 import TopicBlock from './TopicBlock'
 
 function Course({ data,filterString }) {
-  console.log(data)
   return (
       <>
       <div>
