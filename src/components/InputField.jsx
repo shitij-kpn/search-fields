@@ -7,6 +7,7 @@ function InputField({inputField,setInputField}) {
                 type="text"
                 value={inputField}
                 onChange={(e) => setInputField(e.target.value)}
+                placeholder="Search for chapter"
             />
       </div>
   );

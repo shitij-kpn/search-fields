@@ -23,3 +23,19 @@ summary:focus {
 summary::-webkit-details-marker {
   color: #6f00ad;
 }
+
+
+input[type=text]{
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+  margin: 10px 5px;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  background: #e3e4e8;
+  color: #2c303a;
+  border-radius: 5%;
+  caret-color: firebrick;
+}
+
