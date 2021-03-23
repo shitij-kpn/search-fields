@@ -1,4 +1,4 @@
-[ ] fetch data
-[ ] take input
-[ ] filter data
-[ ] rerender the data
+- [x] fetch data
+- [x] take input
+- [x] filter data
+- [x] rerender the data
